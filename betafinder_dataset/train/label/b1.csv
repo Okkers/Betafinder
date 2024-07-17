@@ -1,0 +1,3 @@
+<START>, RH, LH, RL, LL, RH, LL, LH, RH, LL, LH, RH, RL, LL, LH, RH, RL, RH, LH, <EOS>
+<START>, LH, RH, RL, LH, RH, LL, RL, LH, RH, LL, RL, RH, LH, <EOS>
+<START>, RH, LL, LH, RH, LH, RL, LL, RL, RH, LH, RH, RL, LH, LL, RH, LH, <EOS>
