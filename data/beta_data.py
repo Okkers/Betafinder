@@ -2,9 +2,11 @@ from torch.utils.data import Dataset
 import torch
 import pandas as pd
 import pickle
+import numpy as np 
 
 class Beta_data(Dataset):
-    def __init__(self, feat, label, transform = None):
+    def __init__(self, feat, label, src_vocab_size, tgt_vocab_size, transform = None):
+
         self.feat = feat 
 
         if isinstance(label, pd.DataFrame):
